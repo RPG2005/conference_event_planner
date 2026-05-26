@@ -1,7 +1,8 @@
+name: coursera
 services:
-  react-app:
+  react-app-conference-event-planner:
     build: .
-    container_name: eventone-react
+    container_name: conference-event-planner
     ports:
       - "5173:5173"
     volumes:
